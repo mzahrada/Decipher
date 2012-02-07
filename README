@@ -1,0 +1,22 @@
+== Decipher
+Program that decrypts ciphered text from file using Caesar's cipher method.
+
+=== Usage
+   ~Decipher/bin> ruby decipher inputfile
+   ~Decipher> ruby bin/decipher test/ciphered_text.txt
+
+=== Testing
+   ~Decipher/test> ruby decipher_test_suite.rb
+
+=== Input
+	1JKJ'pz'{ol'{yhklthyr'vm'{ol'Jvu{yvs'Kh{h'Jvywvyh{pvu5
+	1PIT'pz'h'{yhklthyr'vm'{ol'Pu{lyuh{pvuhs'I|zpulzz'Thjopul'Jvywvyh{pvu5
+	1KLJ'pz'{ol'{yhklthyr'vm'{ol'Kpnp{hs'Lx|pwtlu{'Jvywvyh{pvu5
+
+=== Output
+	*CDC is the trademark of the Control Data Corporation.
+	*IBM is a trademark of the International Business Machine Corporation.
+	*DEC is the trademark of the Digital Equipment Corporation.
+
+=== RDoc generation
+    rdoc lib README
